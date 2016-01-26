@@ -617,7 +617,7 @@ address {
 	float: left;
 	width: 100%;
 	position:relative;
-	padding: 40px 0 0 0;
+	padding: 40px 0 0 15px;
 	overflow: hidden;
 }
 /*=================================================
