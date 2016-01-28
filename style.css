@@ -7208,7 +7208,7 @@ video {
 	position: relative;
 }
 .footer-nav ul li a {
-	font-size: 11px !important;
+	font-size: 14px !important;
 }
 .footer-nav ul li a:hover {
 	color: #ffffff !important;
@@ -7273,9 +7273,10 @@ video {
 #copyright p {
 	float: left;
 	padding-top: 5px;
-	font-size: 11px;
+	font-size: 14px;
 }
 #copyright p img {
+	width: 40px;
 	margin-right: 10px;
 }
 .footer-mid-sec .social-media {
@@ -9884,8 +9885,9 @@ blockquote.quote:before {
 	width: 100%;
 	font-size: 18px;
 	text-align: left;
-	display: table-cell;
-	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .cs-post-sharebtn .cs-cell.right-btn {
 	padding: 0px 0px 0px 22px;
