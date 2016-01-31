@@ -5090,12 +5090,12 @@ aside .cs-curriculum {
 	padding: 0;
 }
 .accordion-v2 .panel-heading .panel-title a.collapsed {
-	background-color: #fff;
+	background-color: #1578ca;
 }
 .accordion-v2 .panel-title a.collapse {
 	padding: 10px 15px;
-	background-color: #21cdec;
 	color: #fff;
+	border-radius: 5px 5px 0px 0px;
 }
 .accordion-v2 .panel-title a:after {
 	content: "-";
