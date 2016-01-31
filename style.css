@@ -5033,7 +5033,7 @@ aside .cs-curriculum {
 	position: relative;
 }
 .panel-group .panel {
-	border-radius: 0;
+	border-radius: 5px;
 }
 .panel-title > a {
 	width:100%;
@@ -8349,7 +8349,7 @@ body.loadingPage .forcefullwidth_wrapper_tp_banner {
 	float: left;
 	border: 2px solid;
 	border-radius: 20px;
-	font-size: 11px;
+	font-size: 14px;
 	line-height: 1.5;
 }
 .cs-user:hover,.cs-login-sec .cs-login-sec:hover .cs-user-login {
