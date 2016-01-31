@@ -66,8 +66,8 @@
 .course-more a:hover,/* ShopButton */
 .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover,/* ShopButton */
 .widget_dfreview .dfreview_inn a.custom-btn  {
- background-color:<?php echo esc_attr($cs_theme_color); ?> !important;
- 
+ background-color:#1578ca;
+
 }
 /*!
 * Theme Border Color */
@@ -364,7 +364,7 @@ if ( ! function_exists( 'cs_header_color' ) ) {
 	.top-strip a,.top-strip i{color:<?php echo esc_attr($cs_topstrip_link_color);?> !important;}
  	.middle-sec{background:<?php echo esc_attr($cs_header_bgcolor);?> !important;}
 	.main-head {background:<?php echo esc_attr($cs_nav_bgcolor);?> !important;}
-	.navigation .nav > li > a, .cs-login-sec ul li a i,li.parentIcon a:after,.cs-user,.cs-user-login {color:<?php echo esc_attr($cs_menu_color);?> !important;}
+	.navigation .nav > li > a, .cs-login-sec ul li a i,li.parentIcon a:after,.cs-user,.cs-user-login {color:<?php echo esc_attr($cs_menu_color);?> }
 	.navbar-nav > li > .dropdown-menu,.navbar-nav > li > .dropdown-menu > li > .dropdown-menu,.mega-grid{ background-color:<?php echo esc_attr($cs_submenu_bgcolor);?> !important;}
 	.navbar-nav .sub-menu .dropdown-menu li a{color:<?php echo esc_attr($cs_submenu_color);?> !important;}
 	.navbar-nav .sub-menu .dropdown-menu > li:hover > a,ul ul li.current-menu-ancestor.parentIcon > a:after,ul ul li.parentIcon:hover > a:after {border-bottom-color:<?php echo esc_attr($cs_submenu_hover_color);?>;color:<?php echo esc_attr($cs_submenu_hover_color);?> !important;}
@@ -408,6 +408,7 @@ if ( ! function_exists( 'cs_footer_color' ) ) {
         }
         #bottom-sec {
             background-color:<?php echo esc_attr($cs_footerbg_color); ?> !important;
+            background-image: linear-gradient(#787878 10%, #4c4c4c);
         }
         #copyright p, .footer-nav ul li a {
             color:<?php echo esc_attr($cs_copyright_text_color); ?> !important;
