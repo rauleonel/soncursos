@@ -99,7 +99,7 @@
 	.navigation .navbar-collapse.collapse { display:none !important;}
 	.navigation .navbar-collapse.collapse.in{ display:block !important;}
 	.navigation .navbar-collapse.in{ overflow-x:hidden !important; overflow-y:auto !important; }
-	.head-right{ float:none; width:100%; padding:20px 0; }
+	.head-right{ float:none; width:100%; padding:10px 0; }
 	.cs-login-sec{padding:0 !important;}
 	.header_2 .logo{ margin:23px 0 58px !important; }
 	.header_3 .main-head .cs-login-sec { padding: 28px 12px 12px;}
